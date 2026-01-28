@@ -1,6 +1,6 @@
 # Prisma Web
 
-## Quick Start
+## Remember
 
 ```bash
 # Build images
@@ -11,7 +11,7 @@ podman run -d --name license-server -p 3000:3000 --env-file render/license-serve
 podman run -d --name discord-bot -p 3001:3001 --env-file routewalker-discord-bot/.env prisma-web/discord-bot:latest
 ```
 
-## Commands
+## Remember
 
 ```bash
 # Restart
@@ -33,3 +33,4 @@ podman rm -f license-server discord-bot
 
 - `3000` - License server
 - `3001` - Discord bot API
+
