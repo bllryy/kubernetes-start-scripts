@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Deploy all services to Kubernetes
-# Usage: ./deploy.sh
-
-
 kubectl apply -f k8s/namespace.yaml
 kubectl apply -f k8s/secrets.yaml
 kubectl apply -f k8s/license-server.yaml
